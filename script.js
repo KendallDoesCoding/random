@@ -9,6 +9,6 @@ const myFunction = function () {
 };
 
 // Listen to Click Event
-ReDirect_btn.addEventListener("click", (e) => {
+ReDirect_btn.addEventListener("click", () => {
   myFunction();
 });
